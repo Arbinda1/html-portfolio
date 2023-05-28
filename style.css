@@ -1,0 +1,41 @@
+body {
+    background-image: url("google.jpg");
+    background-repeat: no-repeat;
+    background-position: 540px 225px;
+}
+ul#hey li{
+    
+    display: inline;
+}
+
+
+.x{
+    height: 50vh;
+    width: 100vw;
+    
+}
+
+     .container {
+        display: flex;
+        
+        height: 50vh;
+        width: 100vw;
+        position: relative;
+        /* border: 3px solid green; */
+      } 
+
+
+
+#content{  
+  margin: 0;
+  padding: 0;
+
+
+  border: 0.8px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
